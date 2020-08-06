@@ -1,0 +1,352 @@
+/*----------Color de fondo de la pagina------------*/
+body {
+    background-color:black;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+  
+  /*----------Cabecera------------------------------------*/
+  
+  /*Contenedor de la cabecera*/
+  .cabecera{
+    background-color: black;
+    margin-left: 0rem;
+    margin-right: -0.5rem;
+    margin-top: -0.5rem;
+    height: 3.2rem;
+  }
+  
+  /*Titulo de la UDLP*/
+  h2{
+    color:#ffbf00;
+    cursor: pointer;
+    margin-left: 10rem;
+    position: absolute;
+    top: 2.5rem;
+  }
+  /*Contenedor de las redes sociales*/
+  .menuRedesSociales{
+    position: absolute;
+    left: 81rem;
+    margin-left: 0rem;
+    top: 1.5rem;
+    padding: 0.5rem;
+  }
+  /*Tamaño de los iconos*/
+  .iconoMenu{
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  /*Casa*/
+.logo{
+  display: block;
+  margin-left: 3rem;
+  margin-top: 1rem;
+  width: 6rem;
+  height: 6rem;
+}
+  
+  
+  /*-------------------Jumbotron-----------------------*/
+  
+  /*Contenedor del logo*/
+  .contenedorLogo{
+    height: 9rem;
+    margin-top: 3rem;
+    margin-left: -12rem;
+    margin-right: 0rem;
+    background-image: url("/imgs/fondo1.jpg");
+    opacity: 0.2;
+  }
+  
+  /*Logo*/
+  .logoPrincipal{
+    width: 9rem;
+    height: 9rem;
+    position: absolute;
+    left: 45rem;
+    top: 3.6rem;
+  } 
+  
+  /*------------Menu Principal---------------*/
+  
+  .menuPrincipal{
+      width: 89rem;
+    margin-left: 5.5rem;
+    margin-right: 0rem;
+    margin-top: 0rem;
+    /* position: sticky;
+    z-index: 9999; */
+  }
+  
+  /* The navigation menu */
+  .navbar {
+    overflow: hidden;
+    background-color: #1d1d1d;
+    margin-right: 1.4rem;
+    position: sticky;
+    top: 0;
+  }
+  
+  /* Navigation links */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: #ffbf00;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* The subnavigation menu */
+  .subnav {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Subnav button */
+  .subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #ffbf00;
+    padding: 1rem 10rem;
+    background-color: inherit;
+    font-family: inherit;
+    width: 29.2rem;
+  }
+  
+  /* Add a red background color to navigation links on hover */
+  .navbar a:hover, .subnav:hover .subnavbtn {
+      background-color: rgb(69, 69, 245);
+  color: #000000;
+  font-weight: bold;
+  }
+  
+  /* Style the subnav content - positioned absolute */
+  .subnav-content {
+    display: none;
+    position: absolute;
+    background-color: yellow;
+    width: 5rem;
+  }
+  
+  /* Style the subnav links */
+  .subnav-content a {
+    float: left;
+    color: #ffbf00;
+    text-decoration: none;
+  }
+  
+  /* Add a grey background color on hover */
+  .subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+  }
+  
+  /* When you move the mouse over the subnav container, open the subnav content */
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+
+.fondoBody{
+    background-color: black;
+    margin-top: -0rem;
+    margin-left: 5.5rem;
+    margin-right: 5rem;
+    width: 87.5rem;
+    height: 60rem;
+}
+
+/*--------------------------------------Noticias del Lol----------------------------*/
+
+.noticias{
+  margin-top: 22rem;
+  margin-left: 2rem;
+  color: #ffbf00;
+  display: block;
+}
+
+/*Primera noticia*/
+.noti10{
+  margin-top: 1rem;
+  margin-left: 3rem;
+  width: 20rem;
+  height: 10rem;
+  border-radius: 1rem;
+  border-style: solid;
+  border-color: black;
+}
+
+.text10{
+  margin-top: -10rem;
+  margin-left: 25rem;
+  color: #ffbf00;
+}
+
+.conte10{
+  margin-left: 25rem;
+  margin-right: 6rem;
+  color: white;
+}
+
+/*Segunda noticia*/
+.noti11{
+  margin-top: 2rem;
+  margin-left: 3rem;
+  width: 20rem;
+  height: 10rem;
+  border-radius: 1rem;
+  border-style: solid;
+  border-color: black;
+}
+
+.text11{
+  margin-top: -10rem;
+  margin-left: 25rem;
+  color: #ffbf00;
+}
+
+.conte11{
+  margin-left: 25rem;
+  margin-right: 6rem;
+  color: white;
+}
+
+/*Tercera noticia*/
+.noti12{
+  margin-top: 2rem;
+  margin-left: 3rem;
+  width: 20rem;
+  height: 10rem;
+  border-radius: 1rem;
+  border-style: solid;
+  border-color: black;
+}
+
+.text12{
+  margin-top: -9rem;
+  margin-left: 25rem;
+  color: #ffbf00;
+}
+
+.conte12{
+  margin-left: 25rem;
+  margin-right: 6rem;
+  color: white;
+}
+
+/*Cuarta noticia*/
+.noti13{
+  margin-top: 2rem;
+  margin-left: 3rem;
+  width: 20rem;
+  height: 10rem;
+  border-radius: 1rem;
+  border-style: solid;
+  border-color: black;
+}
+
+.text13{
+  margin-top: -10rem;
+  margin-left: 25rem;
+  color: #ffbf00;
+}
+
+.conte13{
+  margin-left: 25rem;
+  margin-right: 6rem;
+  color: white;
+}
+
+
+/*Pagina previa y pagina siguiente*/
+/* pagina anterior y pagina siguiente*/
+.previous {
+  background-color: #ffbf00;
+  color: black;
+  margin-left: 41.5rem;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+.sig {
+  background-color: #ffbf00;
+  color: black;
+  margin-right: 10rem;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.espacio{
+  color: transparent;
+}
+/*--------------------------------------Buscador----------------------------------------------------*/
+#Buscador {
+  background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 5px;
+  background-size: 24px;
+  width: 300px;
+  border: transparent;
+  border-bottom: solid 1px #ffbf00;
+  padding: 10px 10px 10px 30px;
+  margin-left: 65rem;
+  margin-top: -1rem;
+  display: block;
+}
+::placeholder{
+  color: #ffbf00;
+  text-align: left;
+}
+
+
+input{
+  color: #ffbf00;
+}
+
+
+/*--------------Footer-------------*/
+
+/*Isla Canary*/
+.patrocinador1{
+  margin-left: 28rem;
+  margin-top: -4rem;
+  width: 15rem;
+  display: block;
+  opacity: 0.8;
+}
+
+/* KenTech*/
+.patrocinador2{
+  margin-left: 58rem;
+  margin-top: -8rem;
+  width: 15rem;
+  display: block;
+  opacity: 0.8;
+}
+
+p{
+  text-align: center;
+  color: #ffbf00;
+}
+
+.lineafooter{
+  color: #ffbf00;
+}
+
+.poliCookie{
+  display: inline;
+  margin-left: 37rem;
+}
+
+.terminos{
+  display: inline;
+  margin-left: 5rem;
+}

@@ -1,0 +1,327 @@
+/*----------Color de fondo de la pagina------------*/
+body {
+    background-color:black;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+  
+  /*----------Cabecera------------------------------------*/
+  
+  /*Contenedor de la cabecera*/
+  .cabecera{
+    background-color: black;
+    margin-left: 0rem;
+    margin-right: -0.5rem;
+    margin-top: -0.5rem;
+    height: 3.2rem;
+  }
+  
+  /*Titulo de la UDLP*/
+  h2{
+    color:#ffbf00;
+    cursor: pointer;
+    margin-left: 10rem;
+    position: absolute;
+    top: 1.5rem;
+  }
+  /*Contenedor de las redes sociales*/
+  .menuRedesSociales{
+    position: absolute;
+    left: 81rem;
+    margin-left: 0rem;
+    top:1.5rem;
+    padding: 0.5rem;
+  }
+  /*Tamaño de los iconos*/
+  .iconoMenu{
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  /*Casa*/
+.logo{
+  display: block;
+  margin-left: 3rem;
+  margin-top: 1rem;
+  width: 6rem;
+  height: 6rem;
+}
+  
+  /*-------------------Jumbotron-----------------------*/
+  
+  /*Contenedor del logo*/
+  .contenedorLogo{
+    height: 9rem;
+    margin-top: 3rem;
+    margin-left: -12rem;
+    margin-right: -0.5rem;
+    background-image: url("/imgs/fondo1.jpg");
+    opacity: 0.2;
+  }
+  
+  /*Logo*/
+  .logoPrincipal{
+    width: 9rem;
+    height: 9rem;
+    position: absolute;
+    left: 45rem;
+    top: 3.6rem;
+  } 
+  
+  /*------------Menu Principal---------------*/
+  
+  .menuPrincipal{
+    width: 89rem;
+    margin-left: 5rem;
+    margin-right: -5rem;
+    margin-top: 0rem;
+    /* position: sticky;
+    z-index: 9999; */
+  }
+  
+  /* The navigation menu */
+  .navbar {
+    overflow: hidden;
+    background-color: #1d1d1d;
+    margin-right: 1.4rem;
+    position: sticky;
+    top: 0;
+  }
+  
+  /* Navigation links */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: #ffbf00;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* The subnavigation menu */
+  .subnav {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Subnav button */
+  .subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #ffbf00;
+    padding: 1rem 10rem;
+    background-color: inherit;
+    font-family: inherit;
+    width: 29.2rem;
+  }
+  
+  /* Add a red background color to navigation links on hover */
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: rgb(69, 69, 245);
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  /* Style the subnav content - positioned absolute */
+  .subnav-content {
+    display: none;
+    position: absolute;
+    background-color: yellow;
+    width: 5rem;
+  }
+  
+  /* Style the subnav links */
+  .subnav-content a {
+    float: left;
+    color: #ffbf00;
+    text-decoration: none;
+  }
+  
+  /* Add a grey background color on hover */
+  .subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+  }
+  
+  /* When you move the mouse over the subnav container, open the subnav content */
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+
+
+  /*Cuerpo de la pagina*/
+.fondoBody{
+    background-color: black;
+    margin-left: 5rem;
+    margin-right: 5.3rem;
+}
+
+.torneoPrincipal{
+    width: 87.6rem;
+    height: 35rem;
+    margin-left: 0rem;
+    margin-top: 1rem;
+}
+
+
+.torneoActualInfo{
+  margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 2.3rem;
+    text-align: center;
+    color: #ffbf00;
+}  
+
+.textoTorneo{
+    margin-left: 4rem;
+    margin-top: 1rem;
+    position: relative;
+    bottom: 45px;
+    color: #ffbf00;
+    opacity:1;
+    font-weight:bold;
+    text-align: center;
+}
+
+.proximostorneos{
+  color: #ffbf00;
+  margin-left: 2rem;
+}
+
+.torneosPasados{
+    display: flex;
+    justify-content: space-around;
+    margin-left: -2.5rem;
+}
+
+.torneo{
+    width: 50%;
+    height: 100%;
+
+}
+  
+.torneoImagen{
+    margin-left: 3.5rem;
+    width: 25rem;
+    height: 15rem;
+    border-radius: 1rem;
+    border-style: solid;
+    border-color: #ffbf00;
+}
+
+
+.informacion{
+    margin-top: 12rem;
+    position: relative;
+    bottom: 50px;
+}
+
+.titulo{
+    margin-top: -13rem;
+    margin-left: 6rem;
+    color: #ffbf00;
+}
+
+.ptA{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: white;
+}
+
+.pt1{
+    margin-left: 5rem;
+    margin-right: 3rem;
+    color: white;
+}
+
+.pt2{
+  margin-left: 5rem;
+  margin-right: 3rem;
+  color: white;
+}
+
+.pt3{
+  margin-left: 5rem;
+  margin-right: 3rem;
+  color: white;
+}
+
+.pt4{
+  margin-left: 5rem;
+  margin-right: 3rem;
+  color: white;
+}
+  
+
+.patrocinador1{
+  margin-left: 28rem;
+  margin-top: -4rem;
+  width: 15rem;
+  display: block;
+  opacity: 0.8;
+}
+
+/* KenTech*/
+.patrocinador2{
+  margin-left: 58rem;
+  margin-top: -8rem;
+  width: 15rem;
+  display: block;
+  opacity: 0.8;
+}
+
+p{
+  text-align: center;
+  color: #ffbf00;
+}
+
+.lineafooter{
+  color: #ffbf00;
+}
+
+.poliCookie{
+  display: inline;
+  margin-left: 37rem;
+}
+
+.terminos{
+  display: inline;
+  margin-left: 5rem;
+}
+
+
+/*Tabla*/
+
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 88%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #4a5feb;}
+
+#customers tr:nth-child(odd){background-color: rgb(42, 42, 209);}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color:#1d1d1d;
+  color: #ffbf00;
+}
+
+table{
+  margin-left: 5rem;
+  margin-right: -5rem;
+  margin-bottom: 3rem;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
